@@ -10,12 +10,6 @@ main{
   flex-direction: column;
   align-items: center;
 }
-.colored-text{
-  color: tomato;
-  font-size: 60px;
-  font-weight: 700;
-}
-
 
 /* header style */
 header{
@@ -65,7 +59,8 @@ header{
   transition: transform 3s;
 }
 
-/* players style start */
+
+/* players style */
  
  .players{
    display: grid;
@@ -129,79 +124,7 @@ header{
  }
 
 
- /* award section style  */
- .award{
-   display: flex;
-   justify-content: center;
-   margin-top: 150px;
-   margin-bottom: 150px;
- }
- .box{
-   width: 567px;
-   height: 427px;
-   position: relative;
-   margin-right: 15px;
- }
- .award:hover .details{
-   display: block;
-   background-color: rgba(33, 164, 216, 0.575);
- }
-
  
- .award .image img{
-   width: 567px;
-   height: 427px;
- }
-
- .award .details{
-   position: absolute;
-   top: 0px;
-   display: none;
- }
-
- .award .title{
-   font-size: 30px;
-   text-align: center;
- }
- .award .info{
-   font-size: 22px;
- }
-
- /* vote section style  */
-
-.vote-detail{
-  text-align: center;
-  font-size: 30px;
-}
-
-.form-container{
-  margin: 0 auto;
-  box-shadow: 10px 10px 40px gray;
-  width: 300px;
-  border-radius: 10px;
-}
-.group-name{
-  display: block;
-  font-size: 20px;
-  margin: 5px 0px;
-  color: #E02C6D;
-  padding-left: 10px;
-}
-.input-name{
-  padding: 10px;
-}
-.submit{
-  border: none;
-  display: inline-block;
-  margin-left: 120px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  background-color: #E02C6D;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 20px;
-}
-
  /* footer style */
  .logo{
   display: flex;
@@ -317,4 +240,3 @@ p{
     width: 286px;
     height: 63px;
   }
-}
